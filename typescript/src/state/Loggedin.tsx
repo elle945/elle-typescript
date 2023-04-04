@@ -1,6 +1,8 @@
 //arrow rafce
 import { useState } from 'react'
 
+//     const [IsLoggedIn, setIsLoggedIn] = useState<boolean>(false)
+
 export const LoggedIn = () => {
     const [isLoggedIn, setIsLoggedIn] = useState(false)
 
